@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main</class>
+ <widget class="QWidget" name="main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="sta">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>450</width>
+     <height>750</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page_1">
+    <widget class="QPushButton" name="btn_order">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>570</y>
+       <width>181</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>주문하기
+(Start Order)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_help_1">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>680</y>
+       <width>89</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>도움기능
+(Accessible)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_point">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>570</y>
+       <width>151</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>포인트를 적립하세요
+결제 전 선택 필수</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="sta_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>450</width>
+       <height>500</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_2">
+      <widget class="QPushButton" name="btn_main_adve1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>450</width>
+         <height>500</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Gyu_B/5team_python_kiosk/image/맥날메인광고1.png</normaloff>../../Gyu_B/5team_python_kiosk/image/맥날메인광고1.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>600</width>
+         <height>700</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_3">
+      <widget class="QPushButton" name="btn_main_adve2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>450</width>
+         <height>500</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Gyu_B/5team_python_kiosk/image/맥날메인광고3.png</normaloff>../../Gyu_B/5team_python_kiosk/image/맥날메인광고3.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>300</width>
+         <height>600</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2p">
+    <widget class="QLabel" name="logo">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>30</y>
+       <width>81</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>맥도날드
+로고</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_1page">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>90</y>
+       <width>261</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>30</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>식사 장소를
+선택해 주세요</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_in">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>260</y>
+       <width>151</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>매장</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_out">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>260</y>
+       <width>151</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>포장</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_main">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>690</y>
+       <width>151</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>처음으로</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_help_2">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>690</y>
+       <width>151</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>도움기능</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_point_2p">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>640</y>
+       <width>101</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>포인트를 적립하세요
+결제 전 선택 필수
+▼</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
