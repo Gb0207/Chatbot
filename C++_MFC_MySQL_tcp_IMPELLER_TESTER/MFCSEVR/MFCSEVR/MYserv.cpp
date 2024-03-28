@@ -4,7 +4,6 @@
 
 void MYserv::OnAccept(int nErrorCode)
 {
-	Accept(m_user);
-
 	CSocket::OnAccept(nErrorCode);
+	Accept(m_user);
 }

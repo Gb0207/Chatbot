@@ -5,6 +5,7 @@
 #include "MFCSEVR.h"
 #include "UserSock.h"
 #include "iostream"
+#include <afx.h>
 
 
 // UserSock
@@ -23,17 +24,32 @@ UserSock::~UserSock()
 
 void UserSock::OnReceive(int nErrorCode)
 {
+	CSocket::OnReceive(nErrorCode);
+
 	int data;
 	Receive(&data, sizeof(int));
-	
-	std::cout << "클라이언트에게 받은 정수: " << data << std::endl;
+	std::cout << "From Python(result true:1 false:0) : " << data << std::endl;
 
-	int data2 = 10;
-	Send(&data2, sizeof(int));
-
-	CSocket::OnReceive(nErrorCode);
 }
 
+void UserSock::OnSend(int nErrorCode)
+{
+	CSocket::OnSend(nErrorCode);
+
+	CFile pfile;
+	pfile.Open(_T("C:/Users/lms/Documents/Cmfc_cnn_python/XX/cast_O (52).jpeg"),
+		CFile::modeRead);
+
+	int nFileData = pfile.GetLength(); //파일 사이즈
+	Send(&nFileData, sizeof(nFileData)); //파일 사이즈 송신
+	std::cout << "file size: " << nFileData << std::endl;
+
+	char buf[28998];
+	pfile.Read(buf, sizeof(buf));
+	Send(&buf, sizeof(buf));
+	std::cout << "file send" << std::endl;
+	pfile.Close();
+}
 
 void UserSock::OnClose(int nErrorCode)
 {

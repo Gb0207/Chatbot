@@ -19,16 +19,16 @@
       "RelativeMoniker": "D:0:0:{120D57F4-21AC-4660-A353-96ECEE435B09}|MFCSEVR\\MFCSEVR.vcxproj|solutionrelative:MFCSEVR\\MYserv.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{120D57F4-21AC-4660-A353-96ECEE435B09}|MFCSEVR\\MFCSEVR.vcxproj|C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\MFCSEVR.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{120D57F4-21AC-4660-A353-96ECEE435B09}|MFCSEVR\\MFCSEVR.vcxproj|solutionrelative:MFCSEVR\\MFCSEVR.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{120D57F4-21AC-4660-A353-96ECEE435B09}|MFCSEVR\\MFCSEVR.vcxproj|C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\MFCSEVRDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{120D57F4-21AC-4660-A353-96ECEE435B09}|MFCSEVR\\MFCSEVR.vcxproj|solutionrelative:MFCSEVR\\MFCSEVRDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{120D57F4-21AC-4660-A353-96ECEE435B09}|MFCSEVR\\MFCSEVR.vcxproj|C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\MYserv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{120D57F4-21AC-4660-A353-96ECEE435B09}|MFCSEVR\\MFCSEVR.vcxproj|solutionrelative:MFCSEVR\\MYserv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120D57F4-21AC-4660-A353-96ECEE435B09}|MFCSEVR\\MFCSEVR.vcxproj|C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\MFCSEVR.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{120D57F4-21AC-4660-A353-96ECEE435B09}|MFCSEVR\\MFCSEVR.vcxproj|solutionrelative:MFCSEVR\\MFCSEVR.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "MFCSEVR\\UserSock.cpp",
               "ToolTip": "C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\UserSock.cpp",
               "RelativeToolTip": "MFCSEVR\\UserSock.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-27T11:45:01.025Z",
               "EditorCaption": ""
@@ -61,10 +61,9 @@
               "RelativeDocumentMoniker": "MFCSEVR\\UserSock.h",
               "ToolTip": "C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\UserSock.h",
               "RelativeToolTip": "MFCSEVR\\UserSock.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-27T11:37:29.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T11:37:29.044Z"
             },
             {
               "$type": "Document",
@@ -74,27 +73,25 @@
               "RelativeDocumentMoniker": "MFCSEVR\\MYserv.cpp",
               "ToolTip": "C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\MYserv.cpp",
               "RelativeToolTip": "MFCSEVR\\MYserv.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-27T11:17:19.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T11:17:19.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "MYserv.h",
               "DocumentMoniker": "C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\MYserv.h",
               "RelativeDocumentMoniker": "MFCSEVR\\MYserv.h",
               "ToolTip": "C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\MYserv.h",
               "RelativeToolTip": "MFCSEVR\\MYserv.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-27T11:17:02.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T11:17:02.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MFCSEVR.cpp",
               "DocumentMoniker": "C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\MFCSEVR.cpp",
               "RelativeDocumentMoniker": "MFCSEVR\\MFCSEVR.cpp",
@@ -102,21 +99,19 @@
               "RelativeToolTip": "MFCSEVR\\MFCSEVR.cpp",
               "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-27T11:12:13.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T11:12:13.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MFCSEVRDlg.h",
               "DocumentMoniker": "C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\MFCSEVRDlg.h",
               "RelativeDocumentMoniker": "MFCSEVR\\MFCSEVRDlg.h",
               "ToolTip": "C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\MFCSEVRDlg.h",
               "RelativeToolTip": "MFCSEVR\\MFCSEVRDlg.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-27T11:12:07.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T11:12:07.778Z"
             },
             {
               "$type": "Document",
@@ -126,10 +121,9 @@
               "RelativeDocumentMoniker": "MFCSEVR\\MFCSEVRDlg.cpp",
               "ToolTip": "C:\\Users\\lms\\Documents\\Visual Studio 2022\\up\\MFCSEVR\\MFCSEVR\\MFCSEVRDlg.cpp",
               "RelativeToolTip": "MFCSEVR\\MFCSEVRDlg.cpp",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAABYAAAAwAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAACQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-27T11:11:54.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T11:11:54.146Z"
             }
           ]
         }
